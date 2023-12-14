@@ -1,0 +1,149 @@
+:is(h1, h2, h3, a, span){
+    text-decoration: none;
+}
+
+:is(a){
+    color: white;
+}
+
+containner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1200px;
+    height: 150px;
+    background-color: #f51717;
+    border-radius: 12px;
+}
+.header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.header .topnav {
+    margin-top: 47px;
+    margin-left: 7px;
+}
+.header .topnav a {
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    padding: 8px;
+    border-radius: 12px;
+    transition: ease-in 0.3s;
+    z-index: -3;
+}
+.header .topnav a:hover {
+    background-color: rgb(228, 228, 228);
+    padding: 9px;
+    z-index: 2;
+}
+.header .btn-containner {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .btn-containner button {
+    background-color: #f51717;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 11px;
+    margin-right: 12px;
+    border: 1px solid rgb(228, 228, 228);
+    cursor: pointer;
+    transition: ease-in 0.4s;
+    z-index: -3;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.header .btn-containner button:hover {
+    padding: 12px;
+    background-color: rgb(228, 228, 228);
+    z-index: 1;
+}
+
+.info-containner {
+    border: 2px solid #f51717;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    max-height: 1000px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    cursor: pointer;
+    z-index: 0;
+    transition: ease-in 0.4s;
+}
+
+.no__scroll{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zag__bar{
+    margin: 0 auto;
+    display: flex;
+}
+
+.zag__bar h1{
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+}
+
+.no__scroll{
+    position: relative;
+}
+
+.iframr__containner{
+    margin-top: 20px;
+    padding: 20px;
+    height: 100%;
+    max-width: 1200px;
+    border-radius: 12px;
+    border: 2px solid #f51717;
+}
+
+.iframr__containner iframe{
+    width: 99%;
+    min-height: 500px;
+    border-radius: 12px;
+}
+
+.rzhrv_info{
+    height: 100%;
+    max-width: 1200px;
+    border: 2px solid #f51717;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+.rzhrv_info span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}

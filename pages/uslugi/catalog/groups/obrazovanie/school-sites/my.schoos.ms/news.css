@@ -1,0 +1,33 @@
+.main{
+
+    background-color: red;
+    overflow: hidden;
+
+}
+
+.main a{
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.active{
+
+    background: red;
+    color: aquamarine;
+    
+}
+
+.news-bl{
+
+    font-size: 13px;
+    background-color: azure;
+    text-align: center;
+
+}

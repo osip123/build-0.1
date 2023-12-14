@@ -1,0 +1,57 @@
+@import "../../base/vars";
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+    .items-list{
+        margin: 0 auto; 
+        text-decoration: none;
+        max-height: 100px;
+        max-width: 1000px;
+
+        .item{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            max-height: 80px;
+            min-width: 1000px;
+            border: 2px solid $main-bg-color-hed;
+            margin-bottom: 23px;
+            padding: 12px;
+            border-radius: 12px;
+            transition: ease-in .4s;
+            cursor: pointer;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-weight: 500;
+                transition: ease-in .4s;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        }
+    }
+}
+
+.main{
+
+    .items-list{
+
+        .item:hover{
+            background-color: $main-bg-color-hed;
+            padding: 25px;
+
+            a{
+                font-weight: 600;
+                color: #fff;
+                text-decoration:  underline solid white;
+            }
+        }
+    }
+}
+
+

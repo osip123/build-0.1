@@ -1,0 +1,64 @@
+@import "../base/vars";
+
+
+.header{
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 1200px;
+    height: 150px;
+    background-color: $main-bg-color-hed;
+    border-radius: 12px;
+    h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 25;
+        font-weight: 700;
+        color: #fff;
+        margin-right: 7px;
+        margin-top: 7px;
+    }
+    .topnav{
+        margin-top: 47px;
+        margin-left: 7px;
+        a{
+            font-weight: 500;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            color: #fff;
+            padding-left: 15px;
+            padding: 8px;
+            border-radius: 12px;
+            transition: ease-in .3s;
+            z-index: -3;
+        }
+        a:hover{
+            background-color: $active-element;
+            padding: 9px;
+            z-index: 2;
+        }
+    }
+    .btn-containner{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            background-color: $main-bg-color-hed;
+            border-radius: 12px;
+            padding: 10px;
+            margin-top: 11px;
+            margin-right: 12px;
+            border: 1px solid $active-element;
+            cursor: pointer;
+            transition: ease-in .4s;
+            z-index: -3;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+        button:hover{
+            padding: 12px;
+            background-color: $active-element;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "../base/base";
+@import "../base/vars";
+@import "../base/containner";
+@import "../base/header";
+@import "./ellements/main.scss";
+@import "./ellements/city";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

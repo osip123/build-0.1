@@ -1,0 +1,90 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.mainnn{
+
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    font-size: 34px;
+    text-align: left;
+    height: 57px;
+
+}
+
+.menu{
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+    height: 100%;
+    border-radius: 13px;
+
+}
+
+.main{
+
+    border-radius: 13px;
+    background-color: aqua;
+    font-size: 23px;
+    position: relative;
+
+ 
+}
+
+.lrt{
+
+    font-size: 17px;
+    background-color: aquamarine;
+
+}
+
+.letwork{
+
+    font-size: 23px;
+    background-color: aqua;
+    position: relative;
+
+
+}
+
+.letworkp{
+
+    font-size: 23px;
+
+}
+
+.worrxone{
+
+    color: red;
+
+}
+
+.raspisanir{
+
+    color: red;
+
+}
+
+.exam-work{
+
+    border-radius: 13px;
+    background-color: aqua;
+    font-size: 23px;
+    position: relative;
+
+}
+
+.exam-prog{
+    
+    border-radius: 13px;
+    background-color: aqua;
+    font-size: 23px;
+    position: relative;
+
+}
